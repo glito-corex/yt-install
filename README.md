@@ -62,8 +62,7 @@ The main application relies primarily on Python's standard library, alongside th
 ## Project structure
 
 ```text
-YT-installsrc/
-│
+
 ├── main.py
 ├── installer_music.pyw
 ├── installer_vidéo.pyw
