@@ -1,3 +1,5 @@
+
+
 # YT_install
 
 **YT_install** is a lightweight audio and video downloader written in Python. It allows users to download media from YouTube and other supported websites using two different download engines: **yt-dlp** and **IXD (Internet Xtreme Downloader)**.
@@ -11,7 +13,7 @@ The project focuses on providing an alternative between two download engines, al
 - **Two download engines:** Switch between yt-dlp and IXD directly from the application menu.
 - **Local downloads:** Downloaded files are saved automatically in the user's `Downloads/video` directory.
 - **Simple interface:** A lightweight command-line menu for selecting the download type and engine.
-- **No API key required:** The application uses its bundled download engines rather than requiring a paid API.
+- **No API key required:** The application does not require a paid API.
 
 ## Download engines
 
@@ -26,9 +28,11 @@ YT_install uses it for:
 - Downloading media from supported websites.
 - Handling media extraction and download processing.
 
+**Important:** yt-dlp must be installed separately. Please read [`DEPENDENCIES.md`](DEPENDENCIES.md) for installation instructions and the required file structure.
+
 ### IXD — Internet Xtreme Downloader
 
-IXD is an alternative download engine bundled with the project.
+IXD is an alternative download engine provided directly with the project.
 
 Its internal engine includes:
 
@@ -40,9 +44,17 @@ Its internal engine includes:
 - Download management and transfer scheduling.
 - HTTP connection management.
 
+IXD has been modified and adapted to reduce the project's size. It is already included in the repository, so no separate download is required.
+
 YT_install uses IXD through its command-line interface to process media URLs.
 
 **Note:** IXD is currently available for video downloads in YT_install. The audio option is disabled when IXD is selected.
+
+## Dependencies
+
+Before using YT_install, read **[`DEPENDENCIES.md`](DEPENDENCIES.md)**.
+
+This file explains which components are included with the project, which ones must be installed separately, and how to install and configure yt-dlp correctly.
 
 ## Technologies and libraries
 
@@ -57,21 +69,20 @@ YT_install uses IXD through its command-line interface to process media URLs.
 | sys | Python runtime management |
 | time | Delays and menu timing |
 
-The main application relies primarily on Python's standard library, alongside the two integrated download engines.
+The main application relies primarily on Python's standard library, alongside the two download engines.
 
 ## Project structure
 
 ```text
-
-├──build.rs
-├──cargo.toml
-├──icone.ico
-├──src
-|   ├──DACL.rs
-|   ├──main.rs
-|   ├──menuL.rs
-|   ├──installer_music.rs
-|   └──installer_video.rs
+├── build.rs
+├── cargo.toml
+├── icone.ico
+├── src/
+│   ├── DACL.rs
+│   ├── main.rs
+│   ├── menuL.rs
+│   ├── installer_music.rs
+│   └── installer_video.rs
 │
 ├── Lib/
 │   ├── IXD/
@@ -83,10 +94,12 @@ The main application relies primarily on Python's standard library, alongside th
 │       ├── bundle/
 │       └── yt-dlp.cmd
 │
-└── LICENCE/
-    ├── LICENSE-YT-install
-    ├── LICENSE-IXD.md
-    └── LICENSE-YT-DLP.md
+├── LICENCE/
+│   ├── LICENSE-YT-install
+│   ├── LICENSE-IXD.md
+│   └── LICENSE-YT-DLP.md
+│
+└── DEPENDENCIES.md
 ```
 
 ## How it works
