@@ -28,7 +28,7 @@ YT_install uses it for:
 - Downloading media from supported websites.
 - Handling media extraction and download processing.
 
-**Important:** yt-dlp must be installed separately. Please read [`DEPENDENCIES.md`](lib//DEPENDENCIES.md) for installation instructions and the required file structure.
+**Important:** yt-dlp must be installed separately. Please read [`DEPENDENCIES.md`](lib//IXD//DEPENDENCIES.md) for installation instructions and the required file structure.
 
 ### IXD — Internet Xtreme Downloader
 
@@ -88,9 +88,9 @@ The main application relies primarily on Python's standard library, alongside th
 ├── Lib/
 │   ├── IXD/
 │   │   ├── ixd/
+|   |   ├──DEPENDENCIES.md
 │   │   └── launcher.pyw
 │   │
-|   ├──DEPENDENCIES.md
 |   |
 │   └── YT-DLP/
 │       ├── yt_dlp/
