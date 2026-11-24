@@ -63,9 +63,15 @@ The main application relies primarily on Python's standard library, alongside th
 
 ```text
 
-├── main.py
-├── installer_music.pyw
-├── installer_vidéo.pyw
+├──build.rs
+├──cargo.toml
+├──icone.ico
+├──src
+|   ├──DACL.rs
+|   ├──main.rs
+|   ├──menuL.rs
+|   ├──installer_music.rs
+|   ├──installer_video.rs
 │
 ├── Lib/
 │   ├── IXD/
