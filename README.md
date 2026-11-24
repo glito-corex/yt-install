@@ -84,7 +84,7 @@ The main application relies primarily on Python's standard library, alongside th
 │       └── yt-dlp.cmd
 │
 └── LICENCE/
-    ├── LICENCE-YT-INSTALL.md
+    ├── LICENSE-YT-install
     ├── LICENSE-IXD.md
     └── LICENSE-YT-DLP.md
 ```
