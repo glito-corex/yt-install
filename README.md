@@ -52,7 +52,7 @@ YT_install uses IXD through its command-line interface to process media URLs.
 
 ## Dependencies
 
-Before using YT_install, read **[`DEPENDENCIES.md`](DEPENDENCIES.md)**.
+Before using YT_install, read **[`lib/DEPENDENCIES.md`](DEPENDENCIES.md)**.
 
 This file explains which components are included with the project, which ones must be installed separately, and how to install and configure yt-dlp correctly.
 
