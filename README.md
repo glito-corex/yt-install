@@ -71,7 +71,7 @@ The main application relies primarily on Python's standard library, alongside th
 |   ├──main.rs
 |   ├──menuL.rs
 |   ├──installer_music.rs
-|   ├──installer_video.rs
+|   └──installer_video.rs
 │
 ├── Lib/
 │   ├── IXD/
