@@ -90,6 +90,8 @@ The main application relies primarily on Python's standard library, alongside th
 │   │   ├── ixd/
 │   │   └── launcher.pyw
 │   │
+|   ├──DEPENDENCIES.md
+|   |
 │   └── YT-DLP/
 │       ├── yt_dlp/
 │       ├── bundle/
@@ -99,8 +101,6 @@ The main application relies primarily on Python's standard library, alongside th
 │   ├── LICENSE-YT-install
 │   ├── LICENSE-IXD.md
 │   └── LICENSE-YT-DLP.md
-│
-└── DEPENDENCIES.md
 ```
 
 ## How it works
