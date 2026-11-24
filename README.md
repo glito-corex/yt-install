@@ -60,6 +60,7 @@ This file explains which components are included with the project, which ones mu
 
 | Technology | Purpose |
 |---|---|
+| Rust | Application backend and native executable integration |
 | Python | Main programming language |
 | yt-dlp | Audio and video extraction |
 | IXD | Alternative download engine |
